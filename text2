@@ -1,0 +1,39 @@
+
+Tulsa
+
+
+$('.hours__wrapper .hours__list .day:nth-child(6) .day__time--wrap .day__time:nth-child(2)').each(function() {
+    var link = $(this).html();
+    $(this).contents().wrap('<a class="calendar_link" href="//my.chiromatrix.com/0025209/annual-calendar-encino-location" target="_blank"></a>');
+});
+
+
+setInterval(function(){
+    widthx = $(window).width();
+    heightx = (675 * widthx) / 1600;
+    
+    $('.wrap__slider .bx-viewport').css('max-height', heightx);
+    $('.wrap__slider--inner .slider__image').css('max-height', heightx);
+
+},500);
+
+
+jQuery(document).ready( function($){
+
+    $( ".featuredblock__item:nth-child(2) .featuredblock__title" ).replaceWith( '<p style="text-align: center; margin: 0;"><img src="//my.vetmatrix.com/0030806/storage/app/media/bttn_easyscheduler468.png"></p>' );
+
+});
+
+
+$(window).load( function(){
+    $('.slider__text').click(function() {
+        window.open('https://www.zocdoc.com/practice/dr-kauser-sharieff-od-16677?lock=true&isNewPatient=false&referrerType=widget');
+    });
+});
+
+
+$(window).load( function(){
+    $('.slider__item.slider__image').click(function() {
+        window.open('appointment','_self');
+    });
+});
